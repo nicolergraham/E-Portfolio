@@ -7,16 +7,16 @@ about:
   links: 
     - icon: linkedin
       text: LinkedIn
-      href: 
+      href: https://www.linkedin.com/in/ramon-melser-666932129/
     - icon: twitter
       text: Twitter/X
-      href: 
+      href: https://x.com/MelserRamon
     - icon: github
       text: GitHub
       href: https://github.com/ramonmelser
     - icon: envelope-at
       text: Email
-      href: mailto:
+      href: mailto:melser@student.ubc.ca
 ---
 
 Hey there people,
