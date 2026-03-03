@@ -3,7 +3,7 @@ project:
   output-dir: C:\Users\nicolerg.stu\Documents\E-Portfolio
 
 website:
-  title: "Your E-Portfolio"
+  title: "E-Portfolio"
   navbar:
     left:
       - href: index.qmd

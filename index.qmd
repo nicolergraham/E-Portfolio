@@ -15,5 +15,6 @@ about:
 
 Hello,
 
-My name is Nicole Graham and I am a graduate student in the Masters of Geomatics for Environmental Management in the Faculty of Forestry and Environmental Stewardship at the University of British Columbia.
+I am a graduate student in the Masters of Geomatics for Environmental Management in the Faculty of Forestry and Environmental Stewardship at the University of British Columbia. I have an undergraduate degree in Oceanography and Biology and am interested in applications of geomatics for aquatic systems and wildlife ecology.
 
+My previous experience includes 
