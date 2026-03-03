@@ -1,7 +1,24 @@
 ---
-title: "Publications"
+title: "Projects and Publications"
 ---
 
-*Peer-reviewed publications:*
+Below are projects I have undertaken or been a part of through my work experience and education.
 
-Despite listing them on your resume, it may also be pertinent to create a seperate tab for publications and reports. As your career progresses, this list may become quite long, so be sure to organize things. You may want to point to 'most recent' publications, or categorize things by project/topic. 
+*Projects:*
+
+MGEM Capstone project (in progress):
+
+Investigating the Intersection of Modeled and Observed Pacific Salmon Streams with Conserved and Protected Areas in British Columbia.
+
+Undergraduate Directed Studies:
+
+Effects of microplastics on Scenedesmus obliqqus aggregation
+
+- Designed and performed an experiment to investigate phytoplankton aggregation in response to microplastic exposure over time. 
+- Utilized the Flowcam to capture images of phytoplankton. 
+
+*Publications:*
+
+Lepidoptera species richness and community composition in urban street trees. 
+
+
