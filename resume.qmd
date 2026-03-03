@@ -4,7 +4,11 @@ title: "Resume"
 
 # Education
 
--   List your education here.
+Master of Geomatics for Environmental Management | University of British Columbia
+Jul 2025 - Apr 2026
+
+Bachelor of Science Combined Major in Oceanography and Biology | University of British Columbia
+Sept 2017 - Apr 2023
 
 # Publications
 
