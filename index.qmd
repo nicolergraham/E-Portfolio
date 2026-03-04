@@ -1,6 +1,6 @@
 ---
 title: "Nicole Graham"
-image: images/Paxton.jpeg
+image: images/Photo.jpg
 about:
   template: trestles
   image-width: 20em
@@ -15,6 +15,10 @@ about:
 
 Hello,
 
-I am a graduate student in the Masters of Geomatics for Environmental Management in the Faculty of Forestry and Environmental Stewardship at the University of British Columbia. I have an undergraduate degree in Oceanography and Biology and am interested in applications of geomatics for aquatic systems and wildlife ecology.
+I am a graduate student in the Masters of Geomatics for Environmental Management in the Faculty of Forestry and Environmental Stewardship at the University of British Columbia. I have an undergraduate degree in Oceanography and Biology and am interested in the applications of geomatics for aquatic systems and wildlife ecology.
 
-My previous experience includes 
+My previous experience includes data extraction and management for marine contaminants in BC, helping mitigate effects of hydroelectric dams on terrestrial and aquatic systems and helping build the understanding of Pacific salmon ecology through analyzing samples of their diet. 
+
+Through my education and experiences, I have gained skills in analyzing and visualizing data using programming languages such as R, Python, SQL and GIS platforms like QGIS and ArcGIS Pro. I have also utilized critical thinking skills, technical writing, time management and collaboration within interdisciplinary teams.   
+
+

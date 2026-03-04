@@ -4,40 +4,81 @@ title: "Resume"
 
 # Education
 
-Master of Geomatics for Environmental Management | University of British Columbia
+Master of Geomatics for Environmental Management  
+University of British Columbia  
 Jul 2025 - Apr 2026
 
-Bachelor of Science Combined Major in Oceanography and Biology | University of British Columbia
+Bachelor of Science Combined Major in Oceanography and Biology  
+University of British Columbia  
 Sept 2017 - Apr 2023
 
-# Publications
+# Work Experience
 
-*Peer-reviewed publications:*
+Research Study Assistant | SolveFSHD  
+Nov 2023 - Sept 2025
 
--   List any peer-reviewed publications here.
+- Developed a clinical database for early-onset Facioscapulohumeral Dystrophy (FSHD) cases, supporting a retrospective natural history study under the guidance of the Executive Director.
+- Collaborated with FSHD advocates and leadership to define essential data parameters and key information.
+- Presented analytical results and provided clear, concise summaries and presentations.
 
-*Reports:*
+Research Assistant | Pacific Salmon Foundation  
+Oct 2024 - Aug 2025
 
--   List any non-peer reviewed materials you'd like to share here.
+- Support the maintenance of the Contaminant Atlas, a geospatial database of environmental samples containing contaminants harmful to Pacific salmon.
+- Extract and organize marine contaminant data from historical reports to enhance database accuracy.
+- Collaborate with team members to develop automated processes for efficient data extraction.
 
-# Conferences & Talks
+Fisheries/Environmental Co-op Student | BC Hydro  
+Sept - Dec 2022
 
-*Invited Talks*
+- Acquired in-depth knowledge of hydroelectric dams and their environmental, socio-economic, and Indigenous community impacts across British Columbia.
+- Contributed to regulatory compliance initiatives, including monitoring programs aimed at mitigating pollution and protecting land and aquatic ecosystems.
+- Gained familiarity with provincial and federal environmental standards and regulations, including the Fisheries Act and Contaminated Sites Regulation.
+- Supported the preparation and coordination of fish entrainment studies at various BC Hydro facilities.
 
--   If you've been invited to speak in a professional setting, list that here.
+Research/Laboratory Co-op Student | Pelagic Ecosystems Lab at UBC  
+Jan - Aug 2021
 
-*Conference Presentations*
+- Contributed to research on Pacific salmon and zooplankton ecology in the North Pacific Ocean.
+- Prepared and processed salmon and zooplankton samples for analysis and organized/presented data from literature on pelagic ecosystems.
+- Independently operated lab equipment, adhering to safety protocols and maintaining cleanliness standards.
 
--   If the presentation was at a conference, list them here.
 
-# Awards & Honors
+# Volunteer Experience
 
--   List any scholarships, bursaries, etc.
+Beaty Biodiversity Museum at UBC  
+Sept 2024 - Apr 2025 
 
-# Teaching Assistantships
+- Cataloged specimens for the Bryophytes, Lichens and Fungi collection.  
+- Cataloged books for the Marine Invertebrate collection.
 
--   List any TA positions you may have held.
+BCSPCA  
+May 2019 - Jan 2023 
 
-# Institutional Service
+- Improved wildlife photo database and retrieval process by including species identification and descriptions.  
+- Supported annual fundraising calender contest by managing phtot submission and responding to inquiries. 
 
--   Volunteering etc.
+
+# Skills
+
+[Technical Skills]{.underline} 
+
+- Data management
+- Data extraction
+- Data analysis
+- Literature review
+- Technical writing
+- R
+- Python
+- SQL
+- ArcGIS Pro
+- QGIS
+- Excel
+
+[Soft Skills]{.underline} 
+
+- Time management
+- Critical thinking and Problem solving
+- Adaptability and Flexibility
+- Communication
+

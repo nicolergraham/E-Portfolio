@@ -11,9 +11,9 @@ website:
       - href: resume.qmd
         text: Resume
       - href: publications.qmd
-        text: Publications
+        text: Projects and Publications
       - href: content.qmd
-        text: Content & Deliverables
+        text: MGEM
 
 format:
   html:

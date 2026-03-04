@@ -1,10 +1,12 @@
 ---
-title: "Content & Deliverables"
+title: "MGEM"
 format: html
 editor: visual
 ---
 
-# Project 1 - Capstone Deliverables
+# MGEM Capstone project (in progress):
+
+Investigating the Intersection of Modeled and Observed Pacific Salmon Streams with Conserved and Protected Areas in British Columbia.
 
 This is a sample page where you can archive project deliverables. Every header you use will correspond to a tab in the legend - shown on the right-hand side of your screen ("On this page").
 
@@ -69,7 +71,6 @@ src="https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool"
 The full-screen GEE application is available [here](https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool) in case you're interested.
 
 (To use the GEE tool, navigate to any city you'd like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)
-
 
 ```{=html}
 <iframe width="900" height="700" src="https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool"></iframe>
