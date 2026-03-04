@@ -122,11 +122,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#mgem-capstone-project-fcor-599" id="toc-mgem-capstone-project-fcor-599" class="nav-link active" data-scroll-target="#mgem-capstone-project-fcor-599">MGEM Capstone project (FCOR 599:</a>
-  <ul class="collapse">
+  <li><a href="#mgem-capstone-project-fcor-599" id="toc-mgem-capstone-project-fcor-599" class="nav-link active" data-scroll-target="#mgem-capstone-project-fcor-599">MGEM Capstone project (FCOR 599):</a></li>
   <li><a href="#code-snippets" id="toc-code-snippets" class="nav-link" data-scroll-target="#code-snippets">Code Snippets</a></li>
   <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -153,15 +151,27 @@ ul.task-list li input[type="checkbox"] {
 
 
 <section id="mgem-capstone-project-fcor-599" class="level1">
-<h1>MGEM Capstone project (FCOR 599:</h1>
+<h1>MGEM Capstone project (FCOR 599):</h1>
 <ul>
 <li>in progress</li>
 </ul>
 <p>Investigating the Intersection of Modeled and Observed Pacific Salmon Streams with Conserved and Protected Areas in British Columbia.</p>
 <p>My capstone project uses stream layers from the GitHub repository <a href="https://smnorris.github.io/bcfishpass/">bcfishpass</a> which represent modeled and observed spawning and rearing streams and migration paths for Pacific salmon species across BC. I am intersecting these streams with conserved and protected layers so see which salmon species and regions across BC have these modeled and observed streams. This information will allow conservationists to determine which Pacific salmon species could have access to conserved and protected areas. This will also allow for the potential to introduce Pacific salmon to these areas allowing for increased habitat connectivity and improve the stability of these populations in BC.</p>
-<p><img src="images/areas.png" class="img-fluid quarto-figure quarto-figure-left" alt="Map and chart of the conserved and protected areas in BC"> <img src="images/modobs_streams.png" class="img-fluid quarto-figure quarto-figure-left" alt="Map of spawning and rearing streams from bcfishpass"></p>
-<section id="code-snippets" class="level2">
-<h2 class="anchored" data-anchor-id="code-snippets">Code Snippets</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/areas.png" class="img-fluid figure-img"></p>
+<figcaption>Map and chart of the conserved and protected areas in BC</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/modobs_streams.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Map of spawning and rearing streams from bcfishpass</figcaption>
+</figure>
+</div>
+</section>
+<section id="code-snippets" class="level1">
+<h1>Code Snippets</h1>
 <p>Below is a SQL code snippet that I am using to create the intersections of streams and conserved and protected areas.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset" data-group="language">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">SQL</a></li></ul>
@@ -206,10 +216,10 @@ JOIN conserved_areas_processed c
 </div>
 </div>
 </section>
-<section id="assignments" class="level2">
-<h2 class="anchored" data-anchor-id="assignments">Assignments</h2>
+<section id="assignments" class="level1">
+<h1>Assignments</h1>
 <p>Through the various assignments in MGEM, I have gained hands-on experience in addressing environmental management issues using GIS, remote sensing, statistics and landscape ecology. Below are some examples of assignments that highlight my learning.</p>
-<p>GEM 520/521</p>
+<p><u>GEM 520/521:</u></p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
 <p><img src="images/time.png" class="img-fluid figure-img"></p>
@@ -222,16 +232,21 @@ JOIN conserved_areas_processed c
 <figcaption>Worked with LiDAR points clouds and Canopy height models to detected individual trees. This figure shows individual tree segmentation from LiDAR point clouds using R</figcaption>
 </figure>
 </div>
-<p>GEM 510/511 <img src="images/Map.png" class="img-fluid quarto-figure quarto-figure-left" alt="Performed a least cost path analysis on Grizzly Bears in Alberta using vectors and rasters using OSGeo4W shell, QGIS and ArcGISPro"></p>
+<p><u>GEM 510/511:</u></p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="images/reachable_streams.png" class="img-fluid figure-img"></p>
+<p><img src="images/Map.png" style="width:60.0%;height:60.0%" class="figure-img"></p>
+<figcaption>Performed a least cost path analysis on Grizzly Bears in Alberta using vectors and rasters using OSGeo4W shell, QGIS and ArcGISPro</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/reachable_streams.png" style="width:60.0%;height:60.0%" class="figure-img"></p>
 <figcaption>Utilized hydrology, network analyst and linear referencing tools in ArcGIS Pro to model a salmon stream network. This figure shows the reachable and not reachable streams for the Georgia Strait Chinook conservation unit inlcuing the presence of dams</figcaption>
 </figure>
 </div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

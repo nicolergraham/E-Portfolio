@@ -4,17 +4,18 @@ format: html
 editor: visual
 ---
 
-# MGEM Capstone project (FCOR 599:   
+# MGEM Capstone project (FCOR 599):   
 - in progress
 
 Investigating the Intersection of Modeled and Observed Pacific Salmon Streams with Conserved and Protected Areas in British Columbia.
 
-My capstone project uses stream layers from the GitHub repository [bcfishpass](https://smnorris.github.io/bcfishpass/) which represent modeled and observed spawning and rearing streams and migration paths for Pacific salmon species across BC. I am intersecting these streams with conserved and protected layers so see which salmon species and regions across BC have these modeled and observed streams. This information will allow conservationists to determine which Pacific salmon species could have access to conserved and protected areas. This will also allow for the potential to introduce Pacific salmon to these areas allowing for increased habitat connectivity and improve the stability of these populations in BC.  
+My capstone project uses stream layers from the GitHub repository [bcfishpass](https://smnorris.github.io/bcfishpass/) which represent modeled and observed spawning and rearing streams and migration paths for Pacific salmon species across BC. I am intersecting these streams with conserved and protected layers so see which salmon species and regions across BC have these modeled and observed streams. This information will allow conservationists to determine which Pacific salmon species could have access to conserved and protected areas. This will also allow for the potential to introduce Pacific salmon to these areas allowing for increased habitat connectivity and improve the stability of these populations in BC.    
 
-![Map and chart of the conserved and protected areas in BC](images/areas.png){fig-align="left"}
-![Map of spawning and rearing streams from bcfishpass](images/modobs_streams.png){fig-align="left"}
+![Map and chart of the conserved and protected areas in BC](images/areas.png){fig-align="left"}  
 
-## Code Snippets
+![Map of spawning and rearing streams from bcfishpass.](images/modobs_streams.png){width=50% fig-align="left"}  
+![Map of spawning, rearing and migration streams that do not intersect with conserved and protected areas in BC. Streams are coloured by regions](images/notintersect.png){width=50% fig-align="left"}  
+# Code Snippets
 
 Below is a SQL code snippet that I am using to create the intersections of streams and conserved and protected areas.
 
@@ -60,18 +61,18 @@ JOIN conserved_areas_processed c
 ```
 :::
 
-## Assignments
+# Assignments
 
 Through the various assignments in MGEM, I have gained hands-on experience in addressing environmental management issues using GIS, remote sensing, statistics and landscape ecology. Below are some examples of assignments that highlight my learning.
 
-GEM 520/521
+[GEM 520/521:]{.underline}
 
 ![Time-Series Analysis and land cover change detection using R. Through this assignment, I was able to calculate median NDVI over time, apply a change detection algorithm for two AOI and determine net changes in forest are. This figure shows the changes in land cover between two time periods](images/time.png){fig-align="left"}
 
 ![Worked with LiDAR points clouds and Canopy height models to detected individual trees. This figure shows individual tree segmentation from LiDAR point clouds using R](images/indiv_tree.png){fig-align="left"}
 
-GEM 510/511
-![Performed a least cost path analysis on Grizzly Bears in Alberta using vectors and rasters using OSGeo4W shell, QGIS and ArcGISPro](images/Map.png){fig-align="left"}
+[GEM 510/511:]{.underline}    
 
+![Performed a least cost path analysis on Grizzly Bears in Alberta using vectors and rasters using OSGeo4W shell, QGIS and ArcGISPro](images/Map.png){width=60% height=60% fig-align="left"}
 
-![Utilized hydrology, network analyst and linear referencing tools in ArcGIS Pro to model a salmon stream network. This figure shows the reachable and not reachable streams for the Georgia Strait Chinook conservation unit inlcuing the presence of dams](images/reachable_streams.png){fig-align="left"}
+![Utilized hydrology, network analyst and linear referencing tools in ArcGIS Pro to model a salmon stream network. This figure shows the reachable and not reachable streams for the Georgia Strait Chinook conservation unit inlcuing the presence of dams](images/reachable_streams.png){width=60% height=60% fig-align="left"}
