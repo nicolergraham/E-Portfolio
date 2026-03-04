@@ -1,6 +1,6 @@
 ---
 title: "Nicole Graham"
-image: images/Photo.jpg
+image: images/Photo.JPG
 about:
   template: trestles
   image-width: 20em
