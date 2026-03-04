@@ -15,7 +15,8 @@ My capstone project uses stream layers from the GitHub repository [bcfishpass](h
 
 ![Map of spawning and rearing streams from bcfishpass.](images/modobs_streams.png){width=50% fig-align="left"}    
 
-![Map of spawning, rearing and migration streams that do not intersect with conserved and protected areas in BC. Streams are coloured by regions](images/notintersect.png){width=50% fig-align="left"}  
+![Map of spawning, rearing and migration streams that do not intersect with conserved and protected areas in BC. Streams are coloured by regions](images/notintersect.png){width=50% fig-align="left"}    
+
 # Code Snippets
 
 Below is a SQL code snippet that I am using to create the intersections of streams and conserved and protected areas.
