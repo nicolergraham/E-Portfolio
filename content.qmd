@@ -13,7 +13,8 @@ My capstone project uses stream layers from the GitHub repository [bcfishpass](h
 
 ![Map and chart of the conserved and protected areas in BC](images/areas.png){fig-align="left"}  
 
-![Map of spawning and rearing streams from bcfishpass.](images/modobs_streams.png){width=50% fig-align="left"}  
+![Map of spawning and rearing streams from bcfishpass.](images/modobs_streams.png){width=50% fig-align="left"}    
+
 ![Map of spawning, rearing and migration streams that do not intersect with conserved and protected areas in BC. Streams are coloured by regions](images/notintersect.png){width=50% fig-align="left"}  
 # Code Snippets
 
