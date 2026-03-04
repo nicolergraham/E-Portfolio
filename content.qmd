@@ -4,74 +4,74 @@ format: html
 editor: visual
 ---
 
-# MGEM Capstone project (in progress):
+# MGEM Capstone project (FCOR 599:   
+- in progress
 
 Investigating the Intersection of Modeled and Observed Pacific Salmon Streams with Conserved and Protected Areas in British Columbia.
 
-This is a sample page where you can archive project deliverables. Every header you use will correspond to a tab in the legend - shown on the right-hand side of your screen ("On this page").
+My capstone project uses stream layers from the GitHub repository [bcfishpass](https://smnorris.github.io/bcfishpass/) which represent modeled and observed spawning and rearing streams and migration paths for Pacific salmon species across BC. I am intersecting these streams with conserved and protected layers so see which salmon species and regions across BC have these modeled and observed streams. This information will allow conservationists to determine which Pacific salmon species could have access to conserved and protected areas. This will also allow for the potential to introduce Pacific salmon to these areas allowing for increased habitat connectivity and improve the stability of these populations in BC.  
 
-If you've produced any GIS layers for your 599 project, this may be a good place to share them as interactive maps through leaflet. Alternatively, you can upload high-res figures showing correlations, box-plots, etc. from your report here, and provide a brief overview of key project results. If you have written some useful functions, you may also want to share those here to demonstrate proficiency in particular coding languages or synergies between notable coding packages.
-
-## Leaflet
-
-Sample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page [here](https://ubc-mgem-fcor599.github.io/FCOR-599-Workshops/Interactive_Maps/leaflet.html).
-
-```{r leaflet, include = FALSE}
-library(dplyr); library(leaflet)
-
-m <- leaflet() %>%
-  addProviderTiles("Esri.WorldImagery") %>%
-  addScaleBar(position = c("bottomleft")) %>%
-  setView(-123.1207, 49.2827, zoom = 11)
-
-```
-
-```{r map, echo=FALSE}
-m
-```
+![Map and chart of the conserved and protected areas in BC](images/areas.png){fig-align="left"}
+![Map of spawning and rearing streams from bcfishpass](images/modobs_streams.png){fig-align="left"}
 
 ## Code Snippets
 
-Sample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a 'tabset' in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let's showcase a function for calculating NDVI in R and Python.
+Below is a SQL code snippet that I am using to create the intersections of streams and conserved and protected areas.
 
 ::: {.panel-tabset group="language"}
-## R
+## SQL
 
 ``` (.r)
-calc_ndvi <- function(nir, red){
-  ndvi <- (nir-red)/(nir+red)
-  return(ndvi)
-}
+CREATE TABLE streams_in_conserved AS
+SELECT
+    -- bcfishpass stream data
+    s.fid,
+    s.length_metre,
+    s.spawning_ch,
+    s.spawning_cm,
+    s.spawning_co,
+    s.spawning_pk,
+    s.spawning_sk,
+    s.spawning_st,
+    s.rearing_ch,
+    s.rearing_sk,
+    s.rearing_st,
+    s.rearing_co,
+    s.watershed_group_code,
+
+    -- conserved and protected areas (all columns, already preprocessed)
+    c.objectid AS conserved_id,
+	  c.harvest_restrictions_id,
+    c.land_designation_name,
+  	c.land_designation_type_rank,
+	  c.designation,
+  	c.harvest_restriction_class_rank,
+  	c.harvest_restriction_class_name,
+  	c.og_restriction,
+  	c.mine_restriction,
+  	c.shape_area,
+  	c.shape_length,
+  	c.overall_desig
+
+FROM bcfishpass_stream s
+JOIN conserved_areas_processed c
+  ON s.geom && c.SHAPE     
+ AND ST_Intersects(s.geom, c.SHAPE);
 ```
-
-(Assuming *nir* and *red* are terra rast objects)
-
-## Python
-
-``` (.python)
-def calc_ndvi(nir, red): 
-  ndvi = (nir - red)/(nir + red)
-  return(ndvi)
-```
-
-(Assuming *nir* and *red* are numpy arrays)
 :::
 
-## External links
+## Assignments
 
-You can also provide a frame linking to external websites. For example, here is a Google Earth Engine application I developed - which I embedded in this webpage using the code below:
+Through the various assignments in MGEM, I have gained hands-on experience in addressing environmental management issues using GIS, remote sensing, statistics and landscape ecology. Below are some examples of assignments that highlight my learning.
 
-```{code}
+GEM 520/521
 
-<iframe width="900" height="700"
-src="https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool">
-</iframe>
-```
+![Time-Series Analysis and land cover change detection using R. Through this assignment, I was able to calculate median NDVI over time, apply a change detection algorithm for two AOI and determine net changes in forest are. This figure shows the changes in land cover between two time periods](images/time.png){fig-align="left"}
 
-The full-screen GEE application is available [here](https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool) in case you're interested.
+![Worked with LiDAR points clouds and Canopy height models to detected individual trees. This figure shows individual tree segmentation from LiDAR point clouds using R](images/indiv_tree.png){fig-align="left"}
 
-(To use the GEE tool, navigate to any city you'd like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)
+GEM 510/511
+![Performed a least cost path analysis on Grizzly Bears in Alberta using vectors and rasters using OSGeo4W shell, QGIS and ArcGISPro](images/Map.png){fig-align="left"}
 
-```{=html}
-<iframe width="900" height="700" src="https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool"></iframe>
-```
+
+![Utilized hydrology, network analyst and linear referencing tools in ArcGIS Pro to model a salmon stream network. This figure shows the reachable and not reachable streams for the Georgia Strait Chinook conservation unit inlcuing the presence of dams](images/reachable_streams.png){fig-align="left"}
